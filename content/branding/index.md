@@ -15,8 +15,12 @@ showTableOfContents: true
 
 ## Alex's Brewskis
 
-{{< gallery match="images/alexs-brewskis/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+I worked together with Alex to create a vintage-themed cocktail menu in a tan and green colourstory.
+
+{{< gallery match="images/alexs-brewskis/*" sortOrder="asc" rowHeight="250" margins="8" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+
+---
 
 ## Jibber Jabber with Jim
 
-{{< gallery match="images/jibber-jabber-with-jim/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="images/jibber-jabber-with-jim/*" sortOrder="asc" rowHeight="250" margins="8" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
