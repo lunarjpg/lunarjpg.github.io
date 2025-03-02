@@ -44,6 +44,12 @@ copyright = "All rights reserved."
     pre = "<span data-feather='home'></span>"
 
   [[menu.main]]
+    name = "Branding"
+    url = "/branding/"
+    weight = 2
+    pre = "<span data-feather='image'></span>"
+
+  [[menu.main]]
     name = "Contact"
     weight = 10
     url = "mailto:hello@lunajay.co.uk"
