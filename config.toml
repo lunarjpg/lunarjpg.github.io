@@ -44,24 +44,6 @@ title = "Luna Jay"
     pre = "<span data-feather='home'></span>"
 
   [[menu.main]]
-    name = "Illustration"
-    url = "/"
-    weight = 3
-    pre = "<span data-feather='pen-tool'></span>"
-
-  [[menu.main]]
-    name = "Branding"
-    url = "/"
-    weight = 2
-    pre = "<span data-feather='image'></span>"
-
-  [[menu.main]]
-    name = "Show Reel"
-    url = "/"
-    weight = 4
-    pre = "<span data-feather='film'></span>"
-
-  [[menu.main]]
     name = "Contact"
     weight = 99
     url = "mailto:hello@lunajay.co.uk"
