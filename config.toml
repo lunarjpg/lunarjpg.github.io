@@ -5,6 +5,7 @@ enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
 title = "Luna Jay"
+copyright = "All rights reserved."
 
 [params]
   # Resource URL for the site avatar (home page and header)
