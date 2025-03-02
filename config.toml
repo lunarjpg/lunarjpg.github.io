@@ -1,0 +1,77 @@
+baseURL = "https://lunajay.co.uk/"
+defaultContentLanguage = "en"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Luna Jay"
+
+[params]
+  # Resource URL for the site avatar (home page and header)
+  avatarURL = "/images/avatar.webp"
+
+  # Describe the avatar for screen readers
+  avatarAltText = "Luna Jay"
+
+  # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
+  avatarSize = "size-l"
+
+  # Home page meta description
+  description = "Content Creation, Marketing & Branding"
+
+  # Footer text (i.e. author/project name)
+  footer = "Luna Jay"
+
+  # Define SEO keywords
+  metaKeywords = [ "branding", "content creation", "marketing" ]
+
+  fontSize = "20px"
+
+  socialIcons = [
+      {name = "instagram", url = "https://www.instagram.com/lunajaystudios/"},
+      {name = "twitter", url = "https://twitter.com/lunajaystudios"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/lunajay/"},
+      {name = "spotify", url = "https://open.spotify.com/show/7tJheHrHkcdwEYDc1OZsF0"},
+      {name = "email", url = "mailto:hello@lunajay.co.uk"},
+    ]
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    pre = "<span data-feather='home'></span>"
+
+  [[menu.main]]
+    name = "Contact"
+    weight = 10
+    url = "mailto:hello@lunajay.co.uk"
+    pre = "<span data-feather='mail'></span>"
+
+  [[menu.main]]
+    identifier = "Instagram"
+    url = "https://www.instagram.com/lunajaystudios/"
+    weight = 20
+    pre = "<span data-feather='instagram'></span>"
+
+  [[menu.main]]
+    identifier = "Twitter"
+    url = "https://twitter.com/lunajaystudios"
+    weight = 21
+    pre = "<span data-feather='twitter'></span>"
+
+  [[menu.main]]
+    identifier = "LinkedIn"
+    url = "https://www.linkedin.com/in/lunajay/"
+    weight = 22
+    pre = "<span data-feather='linkedin'></span>"
+
+  [[menu.main]]
+    name = "Spotify Podcasts"
+    url = "https://open.spotify.com/show/7tJheHrHkcdwEYDc1OZsF0"
+    weight = 23
+    pre = "<span data-feather='mic'></span>"
+
+[minify]
+    minifyOutput = true
