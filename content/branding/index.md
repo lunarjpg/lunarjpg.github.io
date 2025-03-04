@@ -1,6 +1,6 @@
 ---
 # Define date range for copyright notice in footer
-date: 2024-01-01
+date: 2023-01-01
 lastmod: 2025-01-01
 # Set the meta (SEO) description
 #description: "branding"
