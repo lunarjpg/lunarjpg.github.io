@@ -13,10 +13,6 @@ type: "page"
 showTableOfContents: true
 ---
 
-I 
-
----
-
 ## Jibber Jabber with Jim
 
 I worked with [Jim](https://jamesdavidson.xyz) to build cohesive branding that encompassed his personal brand and his radio hosting endeavours. We curated an old comic-book style theme in a blue and white colourstory, with all elements of the package available to edit with ease on Canva.
