@@ -13,10 +13,13 @@ type: "page"
 showTableOfContents: true
 ---
 
+I 
+
+---
 
 ## Jibber Jabber with Jim
 
-I worked with [Jim](https://jamesdavidson.xyz) to build cohesive branding for himself and his radio hosting endeavours.
+I worked with [Jim](https://jamesdavidson.xyz) to build cohesive branding that encompassed his personal brand and his radio hosting endeavours. We curated an old comic-book style theme in a blue and white colourstory, with all elements of the package available to edit with ease on Canva.
 
 {{< gallery match="images/jibber-jabber-with-jim/*" sortOrder="asc" rowHeight="250" margins="8" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 
@@ -24,7 +27,7 @@ I worked with [Jim](https://jamesdavidson.xyz) to build cohesive branding for hi
 
 ## Alex's Brewskis
 
-I worked together with Alex to create a vintage-themed cocktail menu in a tan and green colourstory.
+I worked together with Alex to create a vintage-style cocktail menu in a tan and green colourstory, with all elements available to edit with ease on Canva. 
 
 {{< gallery match="images/alexs-brewskis/*" sortOrder="asc" rowHeight="250" margins="8" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 
@@ -32,6 +35,6 @@ I worked together with Alex to create a vintage-themed cocktail menu in a tan an
 
 ## Luna Jay Studios
 
-During my time at the University of Plymouth, I created branding for myself!
+During my time at the University of Plymouth, I created branding for myself! Playing off my namesake, I used moon iconography and a purple-based colourstory to create an invoice template, business card, postcards, and a creative CV.
 
 {{< gallery match="images/luna-jay/*" sortOrder="asc" rowHeight="250" margins="8" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
