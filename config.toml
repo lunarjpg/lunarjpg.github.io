@@ -27,6 +27,12 @@ copyright = "All rights reserved."
 
   fontSize = "20px"
 
+  customHeadHTML = '''
+    <style>
+        .home-content { width: 66%; }
+    </style>
+  '''
+
   socialIcons = [
       {name = "instagram", url = "https://www.instagram.com/lunajaystudios/"},
       {name = "twitter", url = "https://twitter.com/lunajaystudios"},
