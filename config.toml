@@ -62,7 +62,7 @@ copyright = "All rights reserved."
     pre = "<span data-feather='mail'></span>"
 
   [[menu.main]]
-    identifier = "Instagram"
+    name = "Instagram"
     url = "https://www.instagram.com/lunajaystudios/"
     weight = 20
     pre = "<span data-feather='instagram'></span>"
@@ -70,7 +70,7 @@ copyright = "All rights reserved."
         newPage = true
 
   [[menu.main]]
-    identifier = "Twitter"
+    name = "Twitter"
     url = "https://twitter.com/lunajaystudios"
     weight = 21
     pre = "<span data-feather='twitter'></span>"
@@ -78,7 +78,7 @@ copyright = "All rights reserved."
         newPage = true
 
   [[menu.main]]
-    identifier = "LinkedIn"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/lunajay/"
     weight = 22
     pre = "<span data-feather='linkedin'></span>"
@@ -86,10 +86,10 @@ copyright = "All rights reserved."
         newPage = true
 
   [[menu.main]]
-    name = "Spotify Podcasts"
+    name = "Spotify"
     url = "https://open.spotify.com/show/7tJheHrHkcdwEYDc1OZsF0"
     weight = 23
-    pre = "<span data-feather='mic'></span>"
+    pre = "<span data-feather='rss'></span>"
     [menu.main.params]
         newPage = true
 
