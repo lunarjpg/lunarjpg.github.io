@@ -1,10 +1,22 @@
+# https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/
+# https://gokarna-hugo.netlify.app/posts/theme-documentation-advanced/
+# https://gohugo.io/documentation/
+
+# Domain name
 baseURL = "https://lunajay.co.uk/"
-defaultContentLanguage = "en"
-# Automatically generate robots.txt
-enableRobotsTXT = true
-languageCode = "en"
-title = "Luna Jay"
+
+# Copyright notice (appended to footer)
 copyright = "All rights reserved."
+
+# Website language
+defaultContentLanguage = "en"
+languageCode = "en"
+
+# Allow search engine crawlers
+enableRobotsTXT = true
+
+# Website title (e.g. author name)
+title = "Luna Jay"
 
 [params]
   # Resource URL for the site avatar (home page and header)
@@ -19,14 +31,19 @@ copyright = "All rights reserved."
   # Home page meta description
   description = "Content Creation, Marketing & Branding"
 
-  # Footer text (i.e. author/project name)
-  footer = "Luna Jay"
-
-  # Define SEO keywords
-  metaKeywords = [ "branding", "content creation", "marketing" ]
-
+  # Body text font size
   fontSize = "20px"
 
+  # Footer text (e.g. author name)
+  footer = "Luna Jay"
+
+  # SEO keywords
+  metaKeywords = [ "branding", "content creation", "marketing" ]
+
+  # Display back to top button when viewing below-the-fold content
+  showBackToTopButton = true
+
+  # Reduce the width of `_index.md` content when viewed on a large screen
   customHeadHTML = '''
       <style>
         @media only screen and (min-width: 820px)
@@ -36,6 +53,14 @@ copyright = "All rights reserved."
       </style>
   '''
 
+  # Display social media links on the home page
+  #
+  # `name` is derived from file names in `static/svg/icons`
+  #
+  # Gokarna includes some icons by default:
+  # https://github.com/gokarna-theme/gokarna-hugo/tree/main/static/svg/icons
+  #
+  # Download more icons from Simple Icons: https://simpleicons.org/
   socialIcons = [
       {name = "instagram", url = "https://www.instagram.com/lunajaystudios/"},
       {name = "twitter", url = "https://twitter.com/lunajaystudios"},
@@ -43,6 +68,8 @@ copyright = "All rights reserved."
       {name = "spotify", url = "https://open.spotify.com/show/7tJheHrHkcdwEYDc1OZsF0"},
       {name = "email", url = "mailto:hello@lunajay.co.uk"},
     ]
+
+# Add internal and external links to navigation menu/bar
 
 [menu]
 
@@ -96,9 +123,11 @@ copyright = "All rights reserved."
     [menu.main.params]
         newPage = true
 
+# Reduce file size when building site by removing human-readable formatting
 [minify]
     minifyOutput = true
 
+# Import Hugo theme and third-party components
 [module]
   [[module.imports]]
     path = "github.com/gokarna-theme/gokarna-hugo"
