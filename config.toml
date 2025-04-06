@@ -40,6 +40,9 @@ title = "Luna Jay"
   # SEO keywords
   metaKeywords = [ "branding", "content creation", "marketing" ]
 
+  # Display back to top button when viewing below-the-fold content
+  showBackToTopButton = true
+
   # Reduce the width of `_index.md` content when viewed on a large screen
   customHeadHTML = '''
       <style>
